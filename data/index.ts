@@ -10,18 +10,18 @@ export const navItems = [
 export const gridItems = [
     {
         id: 1,
-        title: "I prioritize collaboration with clients, fostering open communication.",
-        description: "Declaration",
+        title: "Artificial Intelligence And Machine Learning",
+        description: "specialization",
         className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
         imgClassName: "w-full h-full",
         titleClassName: "justify-end",
-        img: "/b1.svg",
+        img: "/b1l.jpg",
         spareImg: "",
     },
     {
         id: 2,
-        title: "I'm very flexible with time zone communications",
-        description: "",
+        title: "Global Tech Innovator",
+        description: "Hobby",
         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
         titleClassName: "justify-start",
@@ -52,7 +52,7 @@ export const gridItems = [
     {
         id: 5,
         title: "Based on Gen-AI",
-        description: "Project: Neuraa",
+        description: "Working on Project Neuraa",
         className: "md:col-span-3 md:row-span-2",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
         titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -124,7 +124,7 @@ export const projects = [
 
 export const testimonials = [
     {
-        quote: "Working with Sriram has been a great experience; he excels at solving complex problems. His expertise and problem-solving skills are impressive.",
+        quote: "Great experience with Sriram, he is capable of solving complex problems.",
         name: "DR.T.Avudaiappan Dharma Ph.D",
         title: "Professor in K Ramankrishnan college of Technology",
     },
