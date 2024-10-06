@@ -3,7 +3,7 @@ export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Testmonials", link: "#Ratings" },
-    // { name: "⭐⭐⭐", link: "#exp" },
+    { name: "⭐⭐⭐", link: "#exp" },
     { name: "Contact", link: "#contact" },
 ];
 
@@ -20,8 +20,8 @@ export const gridItems = [
     },
     {
         id: 2,
-        title: "Global Tech Innovator",
-        description: "Hobby",
+        title: "Computer Programmer",
+        description: "Global Tech Innovator",
         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
         titleClassName: "justify-start",
@@ -40,8 +40,8 @@ export const gridItems = [
     },
     {
         id: 4,
-        title: "Skilled @ Python, Django, AI, and Blockchain",
-        description: "",
+        title: "Project Neuraa",
+        description: "Feature Project ⭐ [ GEN-AI ]",
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         imgClassName: "",
         titleClassName: "justify-start",
@@ -51,13 +51,13 @@ export const gridItems = [
 
     {
         id: 5,
-        title: "Based on Gen-AI",
-        description: "Working on Project Neuraa",
+        title: "@ Zoho Corporation",
+        description: "Internship as Project Trainee,",
         className: "md:col-span-3 md:row-span-2",
-        imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+        imgClassName: "absolute right-1 bottom-2 md:w-96 w-60 p-3",
         titleClassName: "justify-center md:justify-start lg:justify-center",
-        img: "/b5.svg",
-        spareImg: "/grid.svg",
+        img: "svg/zoho-corporation-seeklogo.svg",
+        spareImg: "",
     },
     {
         id: 6,
@@ -170,6 +170,13 @@ export const companies = [
 
 export const workExperience = [
     {
+        id: 3,
+        title: "Internship at Zoho",
+        desc: "Working as a Project Trainee at Zoho Corporation. August, 2024 - Present",
+        className: "md:col-span-2", // change to md:col-span-2
+        thumbnail: "/svg/zoho-corporation-seeklogo.svg",
+    },
+    {
         id: 1,
         title: "Nebula Nest Hackathon🏆",
         desc: "1st Prize in Hackathon at M Kumarasamy College of Engineering with “Project Neuraa” for innovative AI solutions in education.",
@@ -183,13 +190,7 @@ export const workExperience = [
         className: "md:col-span-2", // change to md:col-span-2
         thumbnail: "/exp2.svg",
     },
-    // {
-    //     id: 3,
-    //     title: "Freelance App Dev Project",
-    //     desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    //     className: "md:col-span-2", // change to md:col-span-2
-    //     thumbnail: "/exp3.svg",
-    // },
+
     // {
     //     id: 4,
     //     title: "Lead Frontend Developer",
