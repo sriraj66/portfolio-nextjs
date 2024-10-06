@@ -57,7 +57,7 @@ export const gridItems = [
         imgClassName: "absolute right-1 bottom-2 md:w-96 w-60 p-3",
         titleClassName: "justify-center md:justify-start lg:justify-center",
         img: "svg/zoho-corporation-seeklogo.svg",
-        spareImg: "",
+        spareImg: "/grid.svg",
     },
     {
         id: 6,
