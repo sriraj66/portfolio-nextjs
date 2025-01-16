@@ -2,8 +2,8 @@ export const navItems = [
     // { name: "Home", link: "#hero" },
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Testmonials", link: "#Ratings" },
-    { name: "⭐⭐⭐", link: "#exp" },
+    // { name: "Testmonials", link: "#Ratings" },
+    { name: "Experience", link: "#exp" },
     { name: "Contact", link: "#contact" },
 ];
 
@@ -52,7 +52,7 @@ export const gridItems = [
     {
         id: 5,
         title: "@ Zoho Corporation",
-        description: "Internship as Project Trainee,",
+        description: "Technical Trainee,",
         className: "md:col-span-3 md:row-span-2",
         imgClassName: "absolute right-1 bottom-2 md:w-96 w-60 p-3",
         titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -72,6 +72,20 @@ export const gridItems = [
 ];
 
 export const projects = [
+    {
+        id: 5,
+        title: "TN Tennis Cricket",
+        des: "A Web Application for Talent Scouting of Tamil Nadu Cricket Players",
+        img: "/projects/tntennis.png",
+        iconLists: [
+            "/svg/html.svg",
+            "/tail.svg",
+            "/svg/dj.svg",
+            "/svg/pg.svg",
+            "/svg/aws.svg",
+        ],
+        link: "tntenniscricket.in",
+    },
     {
         id: 1,
         title: "Project Neuraa",
@@ -170,9 +184,16 @@ export const companies = [
 
 export const workExperience = [
     {
+        id: 4,
+        title: "Technical Trainee at Zoho",
+        desc: "Working on Web Scraping and Data Processing. Jan, 2025 - Present",
+        className: "md:col-span-2", // change to md:col-span-2
+        thumbnail: "/svg/zoho-corporation-seeklogo.svg",
+    },
+    {
         id: 3,
         title: "Internship at Zoho",
-        desc: "Working as a Project Trainee at Zoho Corporation. August, 2024 - Present",
+        desc: "Worked on Web crawling and Puppeteer. Aug, 2024 - Dec 2024",
         className: "md:col-span-2", // change to md:col-span-2
         thumbnail: "/svg/zoho-corporation-seeklogo.svg",
     },
