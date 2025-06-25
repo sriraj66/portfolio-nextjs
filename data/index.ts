@@ -52,7 +52,7 @@ export const gridItems = [
     {
         id: 5,
         title: "@ Zoho Corporation",
-        description: "Technical Trainee,",
+        description: "Software Engineer,",
         className: "md:col-span-3 md:row-span-2",
         imgClassName: "absolute right-1 bottom-2 md:w-96 w-60 p-3",
         titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -184,9 +184,16 @@ export const companies = [
 
 export const workExperience = [
     {
+        id: 5,
+        title: "Software Engineer @ Zoho",
+        desc: "Working as Backend Developer. May, 2025 - Present",
+        className: "md:col-span-2", // change to md:col-span-2
+        thumbnail: "/svg/zoho-corporation-seeklogo.svg",
+    },
+    {
         id: 4,
         title: "Technical Trainee at Zoho",
-        desc: "Working on Web Scraping and Data Processing. Jan, 2025 - Present",
+        desc: "Working on Scraping, Anti-ban, Data Processing Technologies. Jan, 2025 - May 2025",
         className: "md:col-span-2", // change to md:col-span-2
         thumbnail: "/svg/zoho-corporation-seeklogo.svg",
     },
